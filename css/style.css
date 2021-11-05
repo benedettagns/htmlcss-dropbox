@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+}
+.white{
+    color: white;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.strong {
+    font-weight: 800;
+}
+/*------------------------------*/
+
+header {
+    background-color: rgb(105, 174, 252);
+    height: 700px;
+}
+
+.navbar {
+    background-color: white;
+    height: 80px;
+}
+
+.logo-container {
+    float: left;
+    width: 200px;
+    margin: 10px 15px ;
+}
+
+.logo-container img{
+    width: 150px;
+}
+
+.list {
+    float: left;
+    list-style: none;
+}
+
+.list ul li {
+    float: left;
+    display: inline-block;
+    margin: 20px 0 20px 5px;
+    padding-left: 15px;
+}
+
+.list a {
+    color: black;
+}
+
+.inizia {
+    float: right;
+    margin: 20px 15px 0 10px;
+    padding-left: 15px;
+    padding-top: 3px;
+    width: 70px;
+    height: 30px;
+    border: 1px blue solid;
+    background-color: blue;
+}
+
+.list-right {
+    float: right;
+    list-style: none;
+}
+
+.list-right ul li {
+    float: right;
+    display: inline-block;
+    margin: 20px 5px 20px 0;
+    padding-right: 15px;
+}
+
+.text-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 57px;
+    margin-top: 70px;
+}
+
+.text {
+    float: left;
+    width: 350px;
+    margin-top: 30px;
+}
+
+.jumbo img{
+    float: left;
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.free {
+    width: 250px;
+    height: 40px;
+    border: 1px blue solid;
+    background-color: blue;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-top: 6px;
+    padding-left: 25px;
+}
