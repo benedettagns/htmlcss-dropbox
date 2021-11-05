@@ -124,3 +124,36 @@ header {
     padding-top: 6px;
     padding-left: 25px;
 }
+
+.row {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row-title {
+    width: 800px;
+}
+
+.professional {
+    float: left;
+    border: 2px black solid;
+    width: 250px;
+    height: 500px;
+
+}
+
+.standard {
+    float: left;
+    border: 2px black solid;
+    width: 250px;
+    height: 500px;
+
+}
+
+.advanced {
+    float: left;
+    border: 2px black solid;
+    width: 250px;
+    height: 500px;
+
+}
