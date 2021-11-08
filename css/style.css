@@ -280,3 +280,9 @@ header {
     border: 2px grey solid;
     height: 30px;
 }
+
+.box-content-clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
