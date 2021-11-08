@@ -69,7 +69,7 @@ header {
     width: 150px;
 }
 
-.list {
+.list ul{
     list-style: none;
 }
 
@@ -92,7 +92,7 @@ header {
     background-color: blue;
 }
 
-.list-right {
+.list-right ul {
     list-style: none;
 }
 
@@ -208,7 +208,12 @@ header {
     clear: both;
 }
 
-/*--------------------------*/
+.row-content-clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .option {
     border: 1px grey solid;
     height: 30px;
@@ -270,19 +275,48 @@ header {
     margin-left: 20px;
 }
 
+
 .box-3 {
     width: 1000px;
     height: 300px;
     border: 1px grey solid;
+    margin-top: 40px;
+    margin-right: 30px;
 }
 
 .option2 {
-    border: 2px grey solid;
+    border: 1px grey solid;
     height: 30px;
+    padding-left: 450px;
 }
 
-.box-content-clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.enterprise {
+    float: left;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.size {
+    font-size: 32px;
+
+}
+
+.button {
+    float: left;
+    width: 300px;
+    padding-left: 65px;
+    margin-left: 300px ;
+    margin-top: 50px;
+}
+
+.inizio-rigo {
+    margin-top: 140px;
+    margin-left: 40px;
 }
