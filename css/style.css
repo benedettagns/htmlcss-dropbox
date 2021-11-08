@@ -23,8 +23,20 @@ a {
     float: left;
 }
 
+.fl::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .fr {
     float: right;
+}
+
+.fr::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .strong {
@@ -49,7 +61,6 @@ header {
 }
 
 .logo-container {
-    float: left;
     width: 200px;
     margin: 10px 15px ;
 }
@@ -59,12 +70,10 @@ header {
 }
 
 .list {
-    float: left;
     list-style: none;
 }
 
 .list ul li {
-    float: left;
     margin: 20px 0 20px 5px;
     padding-left: 15px;
 }
@@ -74,7 +83,6 @@ header {
 }
 
 .inizia {
-    float: right;
     margin: 20px 15px 0 10px;
     padding-left: 15px;
     padding-top: 3px;
@@ -85,16 +93,14 @@ header {
 }
 
 .list-right {
-    float: right;
     list-style: none;
 }
 
 .list-right ul li {
-    float: right;
     margin: 20px 5px 20px 0;
     padding-right: 15px;
 }
-
+ 
 .text-container{
     width: 1000px;
     margin: 0 auto;
@@ -107,12 +113,25 @@ header {
     margin-top: 30px;
 }
 
+.text::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .jumbo img{
     float: left;
     width: 700px;
     margin-top: 60px;
     margin-left: 40px;
 }
+
+.jumbo img::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .free {
     width: 250px;
@@ -152,6 +171,13 @@ header {
 
 }
 
+.box-left::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 .box-center {
     float: left;
     margin-left: 30px;
@@ -162,12 +188,24 @@ header {
 
 }
 
+.box-center::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .box-right {
     float: left;
     border: 1px gray solid;
     width: 300px;
     height: 800px;
 
+}
+
+.box-right::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*--------------------------*/
@@ -232,12 +270,13 @@ header {
     margin-left: 20px;
 }
 
-/*.box-3 {
+.box-3 {
     width: 1000px;
     height: 300px;
+    border: 1px grey solid;
 }
 
 .option2 {
     border: 2px grey solid;
     height: 30px;
-}*/
+}
