@@ -340,7 +340,7 @@ header {
 .page-3-text {
     float: left;
     width: 600px;
-    margin: 350px 0px 0 60px ;
+    margin: 350px 100px 100px 60px ;
 }
 
 .page-3::after {
@@ -363,4 +363,66 @@ header {
 
 .page-3-button a {
     color: black;
+}
+
+h1 {
+    margin-left: 200px;
+}
+
+.jumbotron::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.jumbotron {
+    margin-top: 100px;
+}
+
+.jumbotron img {
+    width: 200px;
+}
+
+
+.jumbo-text strong{
+    font-size: 24px;
+}
+
+.jumbo-text p {
+    padding-bottom: 30px;
+}
+.cubo-1{
+    float: left;
+    width: 300px;
+    margin-left: 200px;
+}
+
+
+.cubo-2{
+    float: left;
+    width: 300px;
+    margin: 0 40px 0 40px;
+}
+
+
+.cubo-3{
+    float: left;
+    width: 300px;   
+}
+
+.cubo-4{
+    float: left;
+    width: 300px;
+    margin-left: 200px;
+}
+
+.cubo-5{
+    float: left;
+    width: 300px;
+    margin: 0 40px 0 40px;
+}
+
+.cubo-6{
+    float: left;
+    width: 300px;
 }
