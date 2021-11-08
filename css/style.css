@@ -426,3 +426,20 @@ h1 {
     float: left;
     width: 300px;
 }
+
+.filter h1 {
+    padding-right: 900px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.filter a {
+    text-decoration: underline;
+    margin-left: 200px;
+}
+
+.filter::{
+    content: "";
+    display: table;
+    clear: both;
+}
