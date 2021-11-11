@@ -224,7 +224,7 @@ header {
 }
 
 .descrizione {
-    margin: 30px 0 20px 20px;
+    margin: 40%;
 }
 
 .descrizione h3 {
@@ -507,7 +507,7 @@ h1 {
     background-color: rgb(123, 229, 248);
 }
 
-#rosso {
+.rosso {
     background-color: red;
 }
 
